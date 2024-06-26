@@ -4,7 +4,7 @@ USE ECommerce;
 
 CREATE TABLE Produtos (
     id BIGINT AUTO_INCREMENT,
-    nome VARCHAR(100),
+    nome VARCHAR(100) NOT NULL,
     descricao TEXT,
     preco DECIMAL(10, 2),
     categoria VARCHAR(50),

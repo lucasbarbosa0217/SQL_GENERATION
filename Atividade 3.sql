@@ -3,7 +3,7 @@ USE Registro_Escolar;
 
 CREATE TABLE Estudantes (
     id BIGINT AUTO_INCREMENT,
-    nome VARCHAR(100),
+    nome VARCHAR(100) NOT NULL,
     idade INT,
     serie VARCHAR(10),
     nota DECIMAL(4, 2),
